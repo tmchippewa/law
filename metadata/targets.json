@@ -1,0 +1,69 @@
+{
+ "signatures": [
+  {
+   "keyid": "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
+   "sig": "02bd6d947b45ce74e893f955e04145fe0447606709da54849cd9b0b947b08e86a37bec2d3b178a57f59b94debe2a1d95cdc364d160e429e02ff841314edc9c1a448c2d7de3782106d69d006965181a70de811919acf836061274659f0563925b4bec3237a5399a640a15f906b2693474fd853b0ace3d45bfb678520dbbb2272f58ef6ff96702277affc69f52076d8af0002663a0ecf756f049adb4edc4592ba3a17b505c1a1b745d0585a9bfca8bba00b44f1879039883627fadbc04263503c60875ba5d5a7527d8da7ad9024d11f6a15c17848332aacb5fe16b36ed29484103ea08c8d2cbaa5400321f71eeb1b6cc090f4f0b039e7bd17085d5050631fd36b0"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6OyuwnpYgc3asb9sp8rR\nI+8IBFubCsnVoNooFwK0I/mHVM37PA6GOgsfvDcwYVO5hxTSzkiiPXVkXcQvQIqj\nxYM+mIvRMoMMZYGe7FG5lyKCsOkAyRVouc65aemcpL3YvfJfk6d0emv178x5Npge\nV+mHu5FTSPmxvHH2yMQms9o8TWlrDQUBn6s24s/FFTu4Z2SQbJHhJTgFpHIl50Bq\nE28NJLSG5KI5waEaA/oQTATTLGVF/nsVouZQop34CzObpPzD+r7XqrTT7IquEfDj\nwKeCE6UWrypkCo6k7hdv9ZV/oihqeSNMzsyppvfiH9tfMS+sjte43yn5YjME9ZPd\nYwIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "law",
+     "paths": [
+      "tmchippewa/law-xml",
+      "tmchippewa/law-html",
+      "tmchippewa/law-xml-codified",
+      "capstone",
+      "branch"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "docs",
+     "paths": [
+      "tmchippewa/law-docs"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "assets",
+     "paths": [
+      "tmchippewa/law-static-assets"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2023-02-15T04:37:00Z",
+  "spec_version": "1.0",
+  "targets": {},
+  "version": 1
+ }
+}
