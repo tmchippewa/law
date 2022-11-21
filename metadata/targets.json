@@ -68,7 +68,7 @@
      ],
      "name": "assets",
      "paths": [
-      "tmchippewa/law-static-assets"
+      "openlawlibrary/law-static-assets"
      ],
      "terminating": true,
      "threshold": 1
