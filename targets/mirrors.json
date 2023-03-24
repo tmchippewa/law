@@ -1,0 +1,5 @@
+{
+    "mirrors": [
+        "http://github.com/{org_name}/{repo_name}"
+    ]
+}
