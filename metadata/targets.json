@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
-   "sig": "ad0cda8dd4d92b222a9420fdddf5dfcf4b0afee42b6e40fcd64054462b67d221517b5106416f1ad2e6c28b4c10352447c2f8d6503024c195fdef8ae6a75d463e18367d9cff6727f2ee4117894c94554d11b82e54285413bb4f875e359b090cbe78290d367fcc119240cc11081ea509e096fd916f0ab8336287b90ec3c8359bd517ecd2b55d2ecb08ff1db16a29f8e063674f23a676b93809d195a1314c109966547619de2b47a6595365656ddc315004bb9ceafa1a126eebf49dd9976447d22137c185d49f715adda9b2f93b8ffa2165d02b7b2e4c44d936a1bbe0292d0c59058085e5ee15c80f552ab9975ca4592929b8db045912b314a83060c15572794b56"
+   "sig": "9e440c7dc05030624d0a98a8b876a8aca127c9434c6bfd3477f2cb3d90036046579e16c9eaf7538dd7fabc1651ad41089cc25faaf73e466860f282f6583579afb1d3198a7df64c716157f69ccbd196e89ac45a061a8b57fce6c34f4b90d7d6b64c6e3c07a9b06e34adf70de289056ebdfafdc6ee1057fe0ceb1f85b1dfff7e9fcc1f26d7e080dbf4b14e3573ae1b99e07e5eb7bd52e203cdb711e135fdc99ac0e61fa039561eff899f55893bd2ae1bf74e1d60260c023353fc56833219ff2ae7da558d0ecdeab976c973e8c795fdb41e24f9aba1fc6d56c09b916f5d62eb000eb220885b5fdab51eb46a49fcf2b5fcc082fc59d69c11dfe4b6e89926a9c9e5c9"
   }
  ],
  "signed": {
@@ -72,10 +72,23 @@
      ],
      "terminating": true,
      "threshold": 1
+    },
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "rdf",
+     "paths": [
+      "tmchippewa/law-rdf",
+      "rdf/branch",
+      "rdf/capstone"
+     ],
+     "terminating": true,
+     "threshold": 1
     }
    ]
   },
-  "expires": "2024-12-11T19:21:17Z",
+  "expires": "2024-12-11T19:46:42Z",
   "spec_version": "1.0.0",
   "targets": {
    "mirrors.json": {
@@ -100,6 +113,6 @@
     "length": 1687
    }
   },
-  "version": 4
+  "version": 5
  }
 }
