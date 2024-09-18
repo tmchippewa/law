@@ -1,9 +1,6 @@
 {
     "repositories": {
         "tmchippewa/law-docs": {
-            "urls": [
-                "git@github.com:tmchippewa/law-docs.git"
-            ],
             "custom": {
                 "allow-unauthenticated-commits": true,
                 "serve": "latest",
@@ -14,9 +11,6 @@
             }
         },
         "tmchippewa/law-xml": {
-            "urls": [
-                "git@github.com:tmchippewa/law-xml.git"
-            ],
             "custom": {
                 "type": "xml",
                 "allow-unauthenticated-commits": true,
@@ -25,9 +19,6 @@
             }
         },
         "tmchippewa/law-html": {
-            "urls": [
-                "git@github.com:tmchippewa/law-html.git"
-            ],
             "custom": {
                 "preview": "git@github.com:tmchippewa/law-html-preview.git",
                 "type": "html",
@@ -39,9 +30,6 @@
             }
         },
         "tmchippewa/law-xml-codified": {
-            "urls": [
-                "git@github.com:tmchippewa/law-xml-codified.git"
-            ],
             "custom": {
                 "preview": "git@github.com:tmchippewa/law-xml-codified-preview.git",
                 "type": "xml-codified",
@@ -50,9 +38,6 @@
             }
         },
         "tmchippewa/law-static-assets": {
-            "urls": [
-                "git@github.com:tmchippewa/law-static-assets.git"
-            ],
             "custom": {
                 "type": "static-assets",
                 "allow-unauthenticated-commits": true,
