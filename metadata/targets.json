@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94",
-   "sig": "6d8f85a836ecc508620d2ba072154e15f4a79f5855c8c6daca60c2d743c38a58a3c222e7ad50760351f955362a78ceab3ac952608c323c3841021478c0c912bf6dcf773ef331aa34a0b77a4a30964f33b74157e4b4fb97945970d8df41953ff79efbebc961ab62d37fd052017f16b97b7074325959307e271b7edad137a74e24c3c7e35c31fe6303d053b2a0afc5313cc042a926c04934fef693d81b3fd8e28dcfa076986f97c948fb3b9633eddf9562811ec20c4cf32193e8abd411e466d9df99cd5985e631774677e6bd94c116666a92dc7f68087dbe3c032222be7e99264625e04a0b31d40aa76b11103c11dc2ced7c398891b8df0d644d05d9f946611bc6"
+   "sig": "5aa886f77e1a7bebc2b39c015614f2fa8bff4b3c9fa0bb4c3ce219bd69c492e664587df4ebeeff37f4bff922be5f63d72fcee95d484bd340e0945fdd84a211dc69b063206abb21545b75485857ee160a454b7a61e4f863c511b5b58c7e9f49e7dfaa8b51ba809ee389acc3a3f5fc54df0117e567a1ed840e32d61902bbfc5329abaaf026707caedaddd97001efa085a9878ea112d693ce66059263172d4a9196e42e6b520413b23e923dfd941ef75a2c0f6973f5f597c2ea5a356e59288bb6d4285d89b7a20bc233066e7dbbfb66428512685202abab3f076bb4707b4feea8a47bf28c9b7deff233c97b04780c308428284cb5825569c2321de26c167702ed89"
   }
  ],
  "signed": {
@@ -17,6 +17,17 @@
      "keytype": "rsa",
      "keyval": {
       "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvelAxFL3fhSparIA/9cF\nTp6VJL1/oph4+h95PRKVLbt2pTmev+Ozt2HZvZOIkYPYbchZ2LlCprDYM/0wW4Cd\nHcazwjPVw/wHcvJ7Vm7svDhY3SqYQTM3h5vWdtiisZO9ASofY2vsmDglsB5+xD8n\noWwnCLrZAHf67EUTUbWx/t7TXYtIA+cFrHYN4B/D0Ii6Y9tEKP4pB5nlj/ShZ7kf\nRfs45JVIWFMiVfof0QcIUatS6oS2JdRdhBepuOOf8Kp79C/0GIU2vaQHksFje/Q3\nVEtH/+d+VOK72SrUEjeSZS/hA2L2lNnTuTSENwb5CwJR9IfJB3gNoP/hjYoCKcrV\nKwIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    },
+    "7d3f87147e697526c926b225e9fc6cd67fa07bc33fdd33d4ae5793a3d2d921bb": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6ZbLWVLhva3HrQ2piZ+2\nC1ooHcrSFhi/gUYe7+gaYZz7IsM3pKYIrMefnk/jB4f3DI3AgD2MO2Rv/H7OQl3v\np6Z6DSszu0/1rkmT+W1zT3skdbu87lQRtCDPDYhvU5jWodS3FbbNHnhcAeGawVE/\nUa6QXZ8O4oyRWE8U8Nhq+k33wj3tCU2vKiNG5CFVqyXv7GlZsSdn+4WlNcWBYZR4\nZ9YFVj4KnOEN9sZAPav1yamm7ZpFpIup9v/n6oLUdJP5UODT9UolxF2eN8PZGRj7\nlwJr0LDAso+fmbzSEVJOjyuTz1USr8Rz2XgFvy5yJrT/+tZW8TR8VwewlDZo/6AP\nNwIDAQAB\n-----END PUBLIC KEY-----\n"
      },
      "scheme": "rsa-pkcs1v15-sha256"
     },
@@ -36,7 +47,8 @@
     {
      "keyids": [
       "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
-      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94"
+      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94",
+      "7d3f87147e697526c926b225e9fc6cd67fa07bc33fdd33d4ae5793a3d2d921bb"
      ],
      "name": "law",
      "paths": [
@@ -52,7 +64,8 @@
     {
      "keyids": [
       "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
-      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94"
+      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94",
+      "7d3f87147e697526c926b225e9fc6cd67fa07bc33fdd33d4ae5793a3d2d921bb"
      ],
      "name": "docs",
      "paths": [
@@ -64,7 +77,8 @@
     {
      "keyids": [
       "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
-      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94"
+      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94",
+      "7d3f87147e697526c926b225e9fc6cd67fa07bc33fdd33d4ae5793a3d2d921bb"
      ],
      "name": "assets",
      "paths": [
@@ -76,7 +90,8 @@
     {
      "keyids": [
       "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
-      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94"
+      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94",
+      "7d3f87147e697526c926b225e9fc6cd67fa07bc33fdd33d4ae5793a3d2d921bb"
      ],
      "name": "rdf",
      "paths": [
@@ -114,6 +129,6 @@
     "length": 1839
    }
   },
-  "version": 12
+  "version": 13
  }
 }
